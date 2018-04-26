@@ -59,6 +59,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCs\HangHoaNhap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\HangHoaNhap.Designer.cs">
+      <DependentUpon>HangHoaNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCs\HoaDonBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\HoaDonBan.Designer.cs">
+      <DependentUpon>HoaDonBan.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
