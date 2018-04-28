@@ -71,6 +71,36 @@
     <Compile Include="UCs\HoaDonBan.Designer.cs">
       <DependentUpon>HoaDonBan.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCs\NhapHangMoi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\NhapHangMoi.Designer.cs">
+      <DependentUpon>NhapHangMoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCs\QuanLyKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\QuanLyKhachHang.Designer.cs">
+      <DependentUpon>QuanLyKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCs\QuanLyNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\QuanLyNhanVien.Designer.cs">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCs\UCPic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCPic.Designer.cs">
+      <DependentUpon>UCPic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCs\UCPic1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCPic1.Designer.cs">
+      <DependentUpon>UCPic1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
