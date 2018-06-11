@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
 
+
 namespace QuanLySieuThi.UCs
 {
     public partial class QuanLyKhachHang : UserControl
@@ -49,15 +50,7 @@ namespace QuanLySieuThi.UCs
 
         }
 
-
-            NStxt.DataBindings.Clear();
-            NStxt.DataBindings.Add("Text", dtgvKh.DataSource, "NamSinh");
-
-            SDTtxt.DataBindings.Clear();
-            SDTtxt.DataBindings.Add("Text", dtgvKh.DataSource, "SDT");
-
-
-        }
+        
         private void QuanLyKhachHang_Load(object sender, EventArgs e)
         {
             KetNoi();
