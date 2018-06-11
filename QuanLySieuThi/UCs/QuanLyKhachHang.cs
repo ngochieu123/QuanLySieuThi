@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace QuanLySieuThi.UCs
@@ -38,6 +39,16 @@ namespace QuanLySieuThi.UCs
 
             DCtxt.DataBindings.Clear();
             DCtxt.DataBindings.Add("Text", dtgvKh.DataSource, "DiaChi");
+
+
+            NStxt.DataBindings.Clear();
+            NStxt.DataBindings.Add("Text", dtgvKh.DataSource, "NamSinh");
+
+            SDTtxt.DataBindings.Clear();
+            SDTtxt.DataBindings.Add("Text", dtgvKh.DataSource, "SDT");
+
+        }
+
 
             NStxt.DataBindings.Clear();
             NStxt.DataBindings.Add("Text", dtgvKh.DataSource, "NamSinh");
