@@ -40,6 +40,7 @@ namespace QuanLySieuThi.UCs
             DCtxt.DataBindings.Clear();
             DCtxt.DataBindings.Add("Text", dtgvKh.DataSource, "DiaChi");
 
+
             NStxt.DataBindings.Clear();
             NStxt.DataBindings.Add("Text", dtgvKh.DataSource, "NamSinh");
 
@@ -48,6 +49,15 @@ namespace QuanLySieuThi.UCs
 
         }
 
+
+            NStxt.DataBindings.Clear();
+            NStxt.DataBindings.Add("Text", dtgvKh.DataSource, "NamSinh");
+
+            SDTtxt.DataBindings.Clear();
+            SDTtxt.DataBindings.Add("Text", dtgvKh.DataSource, "SDT");
+
+
+        }
         private void QuanLyKhachHang_Load(object sender, EventArgs e)
         {
             KetNoi();
@@ -73,6 +83,7 @@ namespace QuanLySieuThi.UCs
             {
                 MessageBox.Show(ex.Message);
             }
+
         }
 
         private void toolStripButton2_Click(object sender, EventArgs e)
